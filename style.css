@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* font-family: "amzon ember"; */
+    font-family: 'Amazon Ember', sans-serif;
+    font-family: 'Amazon Ember Cd RC', sans-serif;
+    font-family: 'Amazon Ember Display', sans-serif;
+    font-family: 'Amazon Ember Duospace', sans-serif;
+    font-family: 'Amazon Ember Mono', sans-serif;
+    font-family: 'Amazon Ember V2', sans-serif;
+}
+
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+
+@font-face {
+    font-family: "amzon ember";
+    src: url(./amazon-ember-cufonfonts/Amazon\ Ember.ttf);
+}
+
+@font-face {
+    font-family: "amzon ember 2";
+    src: url("./amazon-ember-cufonfonts/Amazon\ Ember\ Cd\ RC\ Light.ttf");
+}
+
+nav {
+    width: 100%;
+    height: 48px;
+    background-color: #0F1111;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    width: 953.1px;
+    display: flex;
+    font-family: "amzon ember";
+}
+
+.nav-left {
+    width: 177px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-left img {
+    width: 104px;
+    height: 19.5px;
+}
+
+.nav-center {
+    margin-left: 13px;
+    width: 380px;
+}
+
+.nav-center ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    list-style: none;
+    color: #aaa;
+}
+
+.nav-right {
+    width: 319px;
+    margin-left: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #aaa;
+}
+
+.search-img {
+    height: 37px;
+    width: 47px;
+}
+
+.person-img {
+    height: 44px;
+    width: 45px;
+}
+
+.page-1 {
+    width: 100%;
+    height: 552px;
+    background-color: green;
+    background-image: url(./page-1.jpg);
+    background-size: 100% 552px;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: "amzon ember 2";
+}
+
+.page-1 span {
+    position: absolute;
+    top: 124px;
+    left: 74px;
+    font-size: 39px;
+    letter-spacing: 2px;
+    color: #fff;
+    line-height: 1.3;
+}
+
+.page-1 p {
+    position: absolute;
+    top: 189px;
+    left: 74px;
+    color: #fff;
+    font-size: 23px;
+    line-height: 1.3;
+}
+
+.page-1-b {
+    border: 0;
+    background-color: #0F79AF;
+    height: 55px;
+    width: 280px;
+    position: absolute;
+    top: 258px;
+    left: 74px;
+    color: #ffff;
+    font-size: 17px;
+}
+
+.page-22 {
+    width: 100%;
+    height: 553px;
+    background-image: url(./page-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.page-22 span {
+    position: absolute;
+    top: 138px;
+    left: 828px;
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.page-22 p {
+    position: absolute;
+    top: 205px;
+    left: 828px;
+    color: #fff;
+    font-size: 20.5px;
+}
+
+.page-22-b {
+    border: 0;
+    background-color: #0F79AF;
+    height: 55px;
+    width: 280px;
+    position: absolute;
+    top: 274px;
+    left: 828px;
+    color: #ffff;
+    font-size: 17px;
+}
+
+.page-33 {
+    width: 100%;
+    min-height: 655px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-33-left {
+    width: 50%;
+    height: 655px;
+    position: relative;
+}
+
+.page-33-left span {
+    position: absolute;
+    top: 41px;
+    left: 77px;
+    font-size: 39px;
+    letter-spacing: 2px;
+    line-height: 1.3;
+}
+
+.page-33-left p {
+    position: absolute;
+    line-height: 1.3;
+    font-size: 23.5px;
+    top: 162px;
+    left: 77px;
+
+}
+
+.page-33-right {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 225px 225px 225px;
+    grid-template-rows: 150px 150px 150px 150px;
+    gap: 10px;
+    margin: 10px;
+    margin-right: 80px;
+}
+
+.page-4 {
+    width: 100%;
+    height: 556px;
+    background-image: url(./page-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.page-4 span {
+    position: absolute;
+    top: 90px;
+    left: 832px;
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: #fff;
+    line-height: 1.3;
+}
+
+.page-4 p {
+    position: absolute;
+    top: 162px;
+    left: 828px;
+    color: #fff;
+    font-size: 20.5px;
+    line-height: 1.3;
+}
+
+.page-4-b {
+    border: 0;
+    background-color: #0F79AF;
+    height: 55px;
+    width: 280px;
+    position: absolute;
+    top: 313px;
+    left: 828px;
+    color: #ffff;
+    font-size: 17px;
+}
+
+.page-5 {
+    width: 100%;
+    height: 554px;
+    background-image: url(./page-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.page-5 span {
+    position: absolute;
+    top: 105px;
+    left: 79px;
+    font-size: 39px;
+    letter-spacing: 2px;
+    color: #fff;
+    line-height: 1.3;
+}
+
+.page-5 p {
+    position: absolute;
+    top: 172px;
+    left: 76px;
+    color: #fff;
+    font-size: 20.5px;
+    line-height: 1.3;
+
+}
+
+.page-5-b {
+    border: 0;
+    background-color: #0F79AF;
+    height: 55px;
+    width: 280px;
+    position: absolute;
+    top: 305px;
+    left: 76px;
+    color: #ffff;
+    font-size: 17px;
+}
+footer {
+    width: 100%;
+    height: 137px;
+    background-color: #222222;
+}
+
+.prime-image {
+    width: 100%;
+    height: 100%;
+}
+
+.f1 {
+    display: flex;
+    justify-content: center;
+}
+
+.f1 img {
+    margin-top: 19px;
+}
+
+.f2 a {
+    margin-left: 19px;
+    text-decoration: none;
+    color: #1D406B;
+}
+
+.f3 {
+    color: #aaa;
+}
